@@ -3,7 +3,7 @@ import openai, config, subprocess
 import numpy as np
 import os
 
-openai.api_key = "sk-RRmdAHyCG3E29ui7IECET3BlbkFJiXKwqLEBoqiTVu5RjgP"
+openai.api_key = "your-api-key"
 
 messages = [{"role": "system", "content": "You are a therapist."}]
 
